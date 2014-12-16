@@ -132,8 +132,6 @@ namespace BA_ByteArrayToImage
             byte[] photo = ConvertToByteArray(txtInput.Text);
 
             imgOutput.Source = BitmapImageFromBytes(photo);
-
-            int i = 0;
         }
     }
 }
